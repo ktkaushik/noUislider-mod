@@ -19,4 +19,4 @@ A full documentation, including examples, is available on the [noUiSlider docume
 	    }
     })
 
-** Library modified by [Mike Puerto](https://github.com/mikepuerto) **
+Library modified by [Mike Puerto](https://github.com/mikepuerto)
