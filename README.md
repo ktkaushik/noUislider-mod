@@ -6,15 +6,16 @@ It fully supports touch, and it is way(!) less bloated than the jQueryUI library
 
 A full documentation, including examples, is available on the [noUiSlider documentation page](http://refreshless.com/nouislider/).
 
-**Changelog for version 3.2.1:**
-_[latest minor release]_
+**Using stop function**
+    slider.noUiSlider({
+    	step: 2
+      , range: [1,10]
+      , slide: function(){
 
-* Fixed an issue when initializing a slider with two handles, both on 100%.
+	    }
+	  , stop: function(){
 
-**Changelog for version 3:**
-_[current major release]_
+	    }
+    })
 
-* Added responsive design support
-* Added Windows Pointer Events support
-* Fixed issues
-* Reduced file size
+** Library modified by [Mike Puerto](https://github.com/mikepuerto) **
