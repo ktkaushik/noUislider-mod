@@ -256,6 +256,8 @@
 										slider.data('_n', false).change();
 									}
 
+									if (settings.stop) call(settings.stop, slider.data('_n', true));
+
 								});
 
 							}
